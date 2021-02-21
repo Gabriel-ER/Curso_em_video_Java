@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu priemeiro programa</title>
+    
+    <style> /* comentário em css */
+        body {
+            background-color: rgb(161, 139, 111);
+            color: rgb(19, 72, 187);
+            font: normal 20pt Arial ;
+        }
+        h1 {
+           color: rgb(126, 126, 1); 
+        }
+        p {
+            color: tomato;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Olá mundo!</h1>
+    <p>Me livrei da maldição</p>
+    <!--Comentário HTML-->
+    
+    <script>
+        //Comentário JS linha única
+        /* 
+        Comentário JS múltiplas linhas
+        */
+       var n1 = Number(window.prompt('Digite n1:'))
+       var n2 = Number(window.prompt('Digite n2:'))
+       //No lugar de Number.parseInt() ou Float, posso usar Number(...)
+       //Neste caso, o js vai decidir entre int ou float
+       var soma = n1+n2
+       window.alert(`A soma entre ${n1} e ${n2} é ${soma}.`)
+       window.alert('Outro jeito de escrever que a soma entre '+ n1 +' e ' + n2 + ' é ' + soma)
+
+
+        
+      
+    </script>
+
+
+</body>
+</html>
