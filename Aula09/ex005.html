@@ -8,7 +8,7 @@
     <style>
             body{
                 background: rgb(132, 132, 221);
-                color: white;
+                color: rgb(0, 80, 7);
                 font: normal 18pt Arial;
             }
     </style>
@@ -17,7 +17,7 @@
     <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em JS </p> <!--Document Object Model-->
-    <div id='msg'>Clique em mim!</div>
+    <div id='msg'>Clique em mim!</div> <!--Se no lugar de id usar class, lá em baixo devo trocar o # por .-->
     
     <script>
         var p1 = window.document.getElementsByTagName('p')[1]
@@ -38,7 +38,7 @@
        d.style.background = 'Purple'
        */
       var d = window.document.querySelector('div#msg') //toda id é representada com # e toca classe com um . (ponto)
-      d.style.background = 'green'
+      d.style.background = 'rgb(190, 250, 70)'
     </script>
 </body>
 </html>
